@@ -1,0 +1,5 @@
+name: Custom Migration
+type: module
+description: 'A module for migrating data from JSON to a database.'
+core_version_requirement: ^9 || ^10
+package: Custom
