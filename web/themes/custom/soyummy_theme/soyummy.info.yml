@@ -16,8 +16,12 @@ regions:
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
   footer: 'Footer'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
+  footer_right: 'Footer right'
+  footer_center: 'Footer center'
+  footer_left: 'Footer left'
+  footer_bottom: 'Footer bottom'
+  # page_top: 'Page top'
+  # page_bottom: 'Page bottom'
 
 libraries-extend:
   bootstrap/framework:

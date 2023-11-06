@@ -1,0 +1,23 @@
+uuid: eff052ac-ef34-4f58-8b7d-4eaa268865e2
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - soyummy
+id: soyummy_brenduvannyasaytu_2
+theme: soyummy
+region: navigation_collapsible
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендування сайту'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

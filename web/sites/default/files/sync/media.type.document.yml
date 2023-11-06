@@ -1,0 +1,16 @@
+uuid: 8f46b21b-2d71-43fa-9662-83296954c96f
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _D9q3XSnP6ik9we9UuoTvZsQKPuYNp_G9PfwVtWzgnQ
+id: document
+label: Документ
+description: 'Викладений файл чи документ, наприклад PDF.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_document
+field_map:
+  name: name

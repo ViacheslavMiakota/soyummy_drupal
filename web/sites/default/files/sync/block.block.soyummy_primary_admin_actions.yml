@@ -1,0 +1,20 @@
+uuid: 7651946b-500c-405f-836a-3c45d270c1bc
+langcode: uk
+status: false
+dependencies:
+  theme:
+    - soyummy
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: soyummy_primary_admin_actions
+theme: soyummy
+region: highlighted
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  label_display: '0'
+  provider: core
+visibility: {  }

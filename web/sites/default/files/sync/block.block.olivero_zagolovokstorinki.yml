@@ -1,0 +1,24 @@
+uuid: ee6be6ad-7491-406e-a8e8-bdbb6db0e940
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_zagolovokstorinki
+theme: olivero
+region: highlighted
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок сторінки'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/categories\r\n/addrecipe\r\n/myrecipe\r\n/favorites\r\n/shoppinglist"

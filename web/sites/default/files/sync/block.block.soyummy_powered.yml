@@ -1,0 +1,22 @@
+uuid: 8b683c07-cc86-4f03-a6af-6fc24f902bc0
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - soyummy
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: soyummy_powered
+theme: soyummy
+region: footer
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Працює на Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

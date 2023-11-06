@@ -1,0 +1,96 @@
+/* p {
+   line-height: normal; 
+ } */
+.navbar-default{ 
+   background-color: inherit;
+   border: none;
+}
+.page-header {
+color: rgb(60, 0, 128);
+}
+
+.navbar-collapse.collapse{
+   display: flex;
+   
+}
+
+.footer .navbar-nav{ 
+   display: flex;
+   flex-direction: column;
+  
+}
+.footer{
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+.region-footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 50px;
+}
+.footer_box,
+.footer_right,
+.footer_center,
+.footer_left{
+   display: flex;
+}
+.footer_box{
+   background-color: #22252a;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+}
+.region-footer-right{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   
+}
+.footer_center,
+.footer_left,
+.footer_right{
+   margin-top: 64px;
+   margin-bottom: 50px;
+}
+.footer_left,
+.footer_right{
+   max-width: 418px;
+}
+.footer_center{
+   max-width: 300px;
+}
+
+.logo-block{
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: row;
+   align-items: center;
+   gap: 12px;
+   margin-bottom: 40px;
+}
+.logo-text{
+   color: #FAFAFA;
+   font-family: Poppins;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 700;
+   letter-spacing: 0.42px;
+}
+.text-bottom-logo{
+   color: #FAFAFA;
+   font-family: Poppins;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.33;
+   letter-spacing: -0.36px;
+}
+
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+ 

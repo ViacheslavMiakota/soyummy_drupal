@@ -1,0 +1,8 @@
+uuid: 5ac3db7b-cd2d-48bb-b7de-0afabccd8b24
+langcode: uk
+status: true
+dependencies: {  }
+id: info_user
+label: 'Інформація користувача'
+revision: 0
+description: "Виводить ім'я та фото користувача"

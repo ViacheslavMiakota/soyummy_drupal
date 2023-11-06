@@ -1,0 +1,25 @@
+uuid: 97774b04-14b2-48c2-a300-e3745fd4a51d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - soyummy
+id: soyummy_mainnavigation
+theme: soyummy
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

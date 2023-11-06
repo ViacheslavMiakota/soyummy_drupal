@@ -1,0 +1,22 @@
+uuid: 1fcd0312-521e-44d3-bb71-be7cdd613bf9
+langcode: uk
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - soyummy
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: soyummy_content
+theme: soyummy
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Основний вміст сторінки'
+  label_display: '0'
+  provider: system
+visibility: {  }

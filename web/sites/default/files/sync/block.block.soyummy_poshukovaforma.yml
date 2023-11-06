@@ -1,0 +1,21 @@
+uuid: 55f38584-6c4b-4685-82e0-1d2f439a2f63
+langcode: uk
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - soyummy
+id: soyummy_poshukovaforma
+theme: soyummy
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Пошукова форма'
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

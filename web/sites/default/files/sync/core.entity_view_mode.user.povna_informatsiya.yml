@@ -1,0 +1,10 @@
+uuid: 99138606-a80f-4d4f-b40c-11210cdfcc95
+langcode: uk
+status: true
+dependencies:
+  module:
+    - user
+id: user.povna_informatsiya
+label: 'Повна інформація'
+targetEntityType: user
+cache: true

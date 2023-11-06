@@ -1,0 +1,36 @@
+uuid: 323c22f9-e859-47e4-b323-c293968e1ac7
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.kartka_korystuvacha.body
+    - node.type.kartka_korystuvacha
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.kartka_korystuvacha.default
+targetEntityType: node
+bundle: kartka_korystuvacha
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

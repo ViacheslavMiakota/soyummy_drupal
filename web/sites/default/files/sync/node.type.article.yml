@@ -1,0 +1,13 @@
+uuid: 6541f3bb-81ac-4cf7-91ad-99f903aef84b
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Стаття
+type: article
+description: '<em>Статті</em> використовуються для чутливих до дати публікації матеріалів на зразок новин, пресрелізів чи дописів до блоґу.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

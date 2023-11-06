@@ -1,0 +1,25 @@
+uuid: a7afe4bc-3464-45e7-b8ee-80955a4c9236
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:19cf4013-c1a1-46a7-828f-8fe66b36f7c0'
+  module:
+    - block_content
+  theme:
+    - soyummy
+id: soyummy_informaciyaprosayt
+theme: soyummy
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:19cf4013-c1a1-46a7-828f-8fe66b36f7c0'
+settings:
+  id: 'block_content:19cf4013-c1a1-46a7-828f-8fe66b36f7c0'
+  label: 'Інформація про сайт '
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

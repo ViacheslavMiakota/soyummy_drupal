@@ -1,0 +1,42 @@
+uuid: c0d9ffa2-adfa-43e3-b63b-53f4ba6b8b94
+langcode: uk
+status: true
+dependencies:
+  module:
+    - block
+_core:
+  default_config_hash: pG6QAggTrD7RQWb79PT3NH48GSvTiePly_l53f3OENs
+id: block-layout
+label: 'Сторінка схеми блоків'
+module: block
+routes:
+  -
+    route_name: block.admin_display
+tips:
+  block-layout:
+    id: block-layout
+    plugin: text
+    label: 'Схема блоків'
+    weight: 1
+    body: 'Блоки  – це поля вмісту, відтворювані в певній частині або області вебсторінки, які можуть відображатися в областях (наприклад, нижній колонтитул або бічна панель) на сторінці.'
+  place-block:
+    id: place-block
+    plugin: text
+    label: 'Розміщення блоків'
+    weight: 2
+    selector: .button--small
+    body: 'Будь-який спеціальний або внесений блок можна додати до певної області, натиснувши кнопку Розмістити блок. Також натисканням цієї кнопки можна створити новий блок.'
+  block-region:
+    id: block-region
+    plugin: text
+    label: 'Область блоку'
+    weight: 3
+    selector: .block-region-select
+    body: 'Призначте або змініть область блоку, натиснувши тут. З’явиться спадний список з усіма областями. Можна розмістити один блок у декількох регіонах'
+  configure-block:
+    id: configure-block
+    plugin: text
+    label: 'Налаштувати блок'
+    weight: 4
+    selector: .dropbutton-widget
+    body: 'Натиснувши кнопку "Налаштувати" можна продовжувати редагувати вміст блоку, розібратися з налаштуваннями видимості та навіть змінити розташування блоку в темі.'

@@ -1,0 +1,22 @@
+uuid: 4c625c99-f2b2-44a0-9a27-e35dbe66f46b
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - soyummy
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: soyummy_primary_local_tasks
+theme: soyummy
+region: highlighted
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Основні вкладки'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

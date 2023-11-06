@@ -1,0 +1,27 @@
+langcode: uk
+favicon:
+  mimetype: image/png
+  path: 'public://logo_4.png'
+  url: /themes/custom/soyummy_theme/favicon.ico
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://logo_3.png'
+  url: ''
+  use_default: false
+schemas:
+  bootstrap: 8000
+  soyummy: 8000
+table_responsive: '-1'
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+apply: Застосувати
+reset_http_request_cache: ''
+table: ''

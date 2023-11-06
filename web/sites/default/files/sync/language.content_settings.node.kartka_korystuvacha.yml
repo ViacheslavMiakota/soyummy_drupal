@@ -1,0 +1,11 @@
+uuid: 27a5d197-3123-4b6a-b116-3d49a7e4f43a
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.kartka_korystuvacha
+id: node.kartka_korystuvacha
+target_entity_type_id: node
+target_bundle: kartka_korystuvacha
+default_langcode: site_default
+language_alterable: false
