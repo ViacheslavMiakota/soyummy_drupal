@@ -1,0 +1,30 @@
+uuid: 0a8549d0-a42a-4381-9361-f3778900a669
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.recipe_prep_time
+    - node.type.recipe
+  module:
+    - recipe
+third_party_settings:
+  recipe:
+    total_time: true
+_core:
+  default_config_hash: ZbtNMfbzoJudCAwNeLd8Wx4hCR_pwDH-OZpx7urdkAU
+id: node.recipe.recipe_prep_time
+field_name: recipe_prep_time
+entity_type: node
+bundle: recipe
+label: 'Час приготування'
+description: 'How long does this recipe take to prepare, in <strong>minutes</strong>?'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

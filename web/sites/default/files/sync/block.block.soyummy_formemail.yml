@@ -1,0 +1,25 @@
+uuid: 544a1ba1-629d-4270-b446-abfb6f2f09f7
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9e3757ca-6f8a-4f4e-b6ab-805151c3d348'
+  module:
+    - block_content
+  theme:
+    - soyummy
+id: soyummy_formemail
+theme: soyummy
+region: footer_left
+weight: 0
+provider: null
+plugin: 'block_content:9e3757ca-6f8a-4f4e-b6ab-805151c3d348'
+settings:
+  id: 'block_content:9e3757ca-6f8a-4f4e-b6ab-805151c3d348'
+  label: 'Form email'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

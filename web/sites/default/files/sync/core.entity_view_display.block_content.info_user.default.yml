@@ -6,9 +6,11 @@ dependencies:
     - block_content.type.info_user
     - field.field.block_content.info_user.body
     - field.field.block_content.info_user.field_image
+    - field.field.block_content.info_user.field_recipe
     - responsive_image.styles.narrow
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - responsive_image
     - text
@@ -17,6 +19,66 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          492003d7-ec72-4666-bbd7-f25a540e5bdb:
+            uuid: 492003d7-ec72-4666-bbd7-f25a540e5bdb
+            region: content
+            configuration:
+              id: 'field_block:block_content:info_user:field_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: responsive_image
+                label: above
+                settings:
+                  responsive_image_style: narrow
+                  image_link: file
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          c6d43f12-929e-48f2-a398-979f77c56622:
+            uuid: c6d43f12-929e-48f2-a398-979f77c56622
+            region: content
+            configuration:
+              id: 'field_block:block_content:info_user:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          2099437d-c091-4e1c-9cb6-9757fe4c438f:
+            uuid: 2099437d-c091-4e1c-9cb6-9757fe4c438f
+            region: content
+            configuration:
+              id: 'field_block:block_content:info_user:field_recipe'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: false
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 id: block_content.info_user.default
 targetEntityType: block_content
 bundle: info_user
@@ -39,6 +101,15 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_recipe:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 2
     region: content
 hidden:
   langcode: true

@@ -5,9 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_image
+    - image.style.medium
     - node.type.page
   module:
     - field_layout
+    - image
+    - layout_builder
     - layout_discovery
     - text
     - user
@@ -16,6 +20,60 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          bbcc58ec-8da7-44e2-9ef2-433a29da89cf:
+            uuid: bbcc58ec-8da7-44e2-9ef2-433a29da89cf
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_summary_or_trimmed
+                label: hidden
+                settings:
+                  trim_length: 600
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          6a5477fe-037f-4024-abe4-5eb6c0d5073e:
+            uuid: 6a5477fe-037f-4024-abe4-5eb6c0d5073e
+            region: content
+            configuration:
+              id: 'extra_field_block:node:page:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 1
+            additional: {  }
+          10231d53-8436-4255-ac9c-440de64a194a:
+            uuid: 10231d53-8436-4255-ac9c-440de64a194a
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: content
+                  image_style: medium
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: 8BgdRtLbtQ0F__o0FHSH0Mx5fvXOra9tfT1GmNKbRYw
 id: node.page.teaser
@@ -31,7 +89,20 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
   links:
+    settings: {  }
+    third_party_settings: {  }
     weight: 101
     region: content
 hidden:

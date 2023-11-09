@@ -162,10 +162,12 @@
 {% if page.footer %}
   {% block footer %}
     <footer class="region footer " role="contentinfo">
-    <div class="footer_box {{ container }}">
+    <div class="footer_box ">
+    <div class="footer-container {{ container }}">
       <div class="footer_right">{{ page.footer_right }}</div>
       <div class="region footer_center">{{ page.footer_center }}</div>
       <div class="footer_left">{{ page.footer_left }}</div>
+      </div>
     </div>
     <div class="region footer_bottom">{{ page.footer_bottom }}</div>
       {{ page.footer }}

@@ -1,0 +1,20 @@
+uuid: 4386c7d3-31f0-4f33-a0c8-43841503037a
+langcode: uk
+status: true
+dependencies:
+  module:
+    - user
+  enforced:
+    module:
+      - user
+_core:
+  default_config_hash: xtzuACq4Fn0ail4YD8cO_eMnn_g2DBlfI9W5oSpcRWI
+id: user.user
+targetEntityType: user
+bundle: user
+types:
+  - 'schema:Person'
+fieldMappings:
+  name:
+    properties:
+      - 'schema:name'

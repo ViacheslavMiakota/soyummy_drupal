@@ -9,6 +9,7 @@ dependencies:
   module:
     - field_layout
     - image
+    - layout_builder
     - layout_discovery
     - user
 third_party_settings:
@@ -16,6 +17,60 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          6763bd0d-274e-4768-860e-a84d8e3c197e:
+            uuid: 6763bd0d-274e-4768-860e-a84d8e3c197e
+            region: content
+            configuration:
+              id: 'field_block:user:user:user_picture'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: content
+                  image_style: thumbnail
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          71e570f5-9840-4458-97aa-f9d222cbb32e:
+            uuid: 71e570f5-9840-4458-97aa-f9d222cbb32e
+            region: content
+            configuration:
+              id: 'field_block:user:user:field_user_name'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          0b8fa97a-1ba0-44ad-a64b-3e25b0128abc:
+            uuid: 0b8fa97a-1ba0-44ad-a64b-3e25b0128abc
+            region: content
+            configuration:
+              id: 'extra_field_block:user:user:member_for'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
 id: user.user.default

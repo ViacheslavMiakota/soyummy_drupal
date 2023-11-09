@@ -10,8 +10,8 @@ dependencies:
     - soyummy
 id: soyummy_mainnavigation
 theme: soyummy
-region: footer
-weight: -5
+region: footer_center
+weight: -7
 provider: null
 plugin: 'system_menu_block:main'
 settings:

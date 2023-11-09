@@ -21,4 +21,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/categories\r\n/addrecipe\r\n/myrecipe\r\n/favorites\r\n/shoppinglist\r\n/home"
+    pages: "/categories\r\n/addrecipe\r\n/myrecipe\r\n/favorites\r\n/shoppinglist\r\n"

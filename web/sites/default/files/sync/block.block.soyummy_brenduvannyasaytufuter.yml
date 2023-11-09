@@ -1,0 +1,25 @@
+uuid: dd5f3c02-52b7-4b24-af8c-5f33fff0b3e7
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c2b52bc8-9de7-459f-b7dc-2c0c84cc83f9'
+  module:
+    - block_content
+  theme:
+    - soyummy
+id: soyummy_brenduvannyasaytufuter
+theme: soyummy
+region: footer_right
+weight: -8
+provider: null
+plugin: 'block_content:c2b52bc8-9de7-459f-b7dc-2c0c84cc83f9'
+settings:
+  id: 'block_content:c2b52bc8-9de7-459f-b7dc-2c0c84cc83f9'
+  label: 'брендування сайту футер'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: f0f90ca2-0e91-40e0-bd4b-ac4cdfb5cec5
+langcode: uk
+status: true
+dependencies:
+  module:
+    - block_content
+    - media
+id: block_content.field_recipe
+field_name: field_recipe
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

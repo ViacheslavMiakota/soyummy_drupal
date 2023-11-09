@@ -1,0 +1,12 @@
+uuid: 0f458800-5e8f-461d-8ad7-7e30e6e0d980
+langcode: uk
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: h3BeHVei4Lnyqbkao3YiF4KqoY-DhRvUNfEgKG8Rgjg
+id: paragraph.preview
+label: 'Попередній перегляд'
+targetEntityType: paragraph
+cache: true

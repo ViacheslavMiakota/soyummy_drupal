@@ -3,6 +3,10 @@ framework:
     theme:
       css/footer.css: {}
       css/header.css: {}
+      css/main.css: {}
+      css/base.css: {}
+      
+
 
 
 # Uncomment for LESS source JavaScript files.

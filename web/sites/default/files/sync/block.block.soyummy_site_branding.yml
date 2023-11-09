@@ -1,6 +1,6 @@
 uuid: eac8480d-1e78-4efc-86db-1ce160ea7538
 langcode: uk
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
 id: soyummy_site_branding
 theme: soyummy
-region: footer
-weight: -7
+region: footer_right
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:

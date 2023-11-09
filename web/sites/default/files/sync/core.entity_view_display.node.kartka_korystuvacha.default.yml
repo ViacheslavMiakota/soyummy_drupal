@@ -7,6 +7,7 @@ dependencies:
     - node.type.kartka_korystuvacha
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - text
     - user
@@ -15,6 +16,40 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          c48c9cfd-a23b-4eab-9cc3-a711267f332e:
+            uuid: c48c9cfd-a23b-4eab-9cc3-a711267f332e
+            region: content
+            configuration:
+              id: 'extra_field_block:node:kartka_korystuvacha:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          d6f87431-fb4f-4780-bf78-aac3d938fe52:
+            uuid: d6f87431-fb4f-4780-bf78-aac3d938fe52
+            region: content
+            configuration:
+              id: 'field_block:node:kartka_korystuvacha:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
 id: node.kartka_korystuvacha.default
 targetEntityType: node
 bundle: kartka_korystuvacha

@@ -6,11 +6,13 @@ dependencies:
     - block_content.type.info_user
     - field.field.block_content.info_user.body
     - field.field.block_content.info_user.field_image
+    - field.field.block_content.info_user.field_recipe
     - image.style.thumbnail
   module:
     - field_layout
     - image
     - layout_discovery
+    - media_library
     - text
 third_party_settings:
   field_layout:
@@ -39,6 +41,13 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_recipe:
+    type: media_library_widget
+    weight: 26
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   info:
     type: string_textfield

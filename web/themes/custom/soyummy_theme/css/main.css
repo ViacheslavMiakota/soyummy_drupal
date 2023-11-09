@@ -1,8 +1,18 @@
-.brand-block{
-    display: flex;
-    margin-top: 162px;
+h1 {
+    all: initial;
+  }
+  
+
+.brand-img{
+    color: #22252A;
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.5px;
 }
-.brand-ferst{
+.brand-img-ferst{
     color: #8BAA36;
     text-align: center;
     font-family: Poppins;
@@ -11,13 +21,4 @@
     font-weight: 400;
     line-height: 1;
     letter-spacing: -0.5px; 
-}
-.brand-second{
-    color: #22252A;
-    font-family: Poppins;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    letter-spacing: -0.5px;
 }

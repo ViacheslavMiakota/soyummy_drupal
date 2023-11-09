@@ -1,0 +1,29 @@
+uuid: cc0561da-06d6-4c5d-96a6-986fe82e2f8f
+langcode: uk
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - recipe
+  enforced:
+    module:
+      - recipe
+third_party_settings:
+  recipe:
+    total_time_label: 'Total time'
+    total_time_label_display: hidden
+    yield_label: Yield
+    yield_label_display: hidden
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: rsN6ea8JR1jm75lJHo0zxaZq-yWPNoazBPomu9REZ9U
+name: Рецепт
+type: recipe
+description: 'Share your favorite recipes with your fellow cooks.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

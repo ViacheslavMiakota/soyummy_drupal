@@ -1,0 +1,10 @@
+uuid: 77f24e4b-e1bd-4077-9e78-1a3f785cd81d
+langcode: uk
+status: true
+dependencies:
+  module:
+    - user
+id: user.form_email
+label: 'Форма пошти'
+targetEntityType: user
+cache: true

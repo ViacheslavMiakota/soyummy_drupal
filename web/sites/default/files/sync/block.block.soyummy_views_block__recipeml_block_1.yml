@@ -1,0 +1,25 @@
+uuid: cf5c2826-7a95-48f4-a0fa-8ee060fab204
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.recipeml
+  module:
+    - views
+  theme:
+    - soyummy
+id: soyummy_views_block__recipeml_block_1
+theme: soyummy
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:recipeml-block_1'
+settings:
+  id: 'views_block:recipeml-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility: {  }

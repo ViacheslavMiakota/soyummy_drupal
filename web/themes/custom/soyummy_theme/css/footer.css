@@ -1,6 +1,14 @@
 /* p {
    line-height: normal; 
  } */
+ .container{
+   width: 1240px;
+   }
+ .region-navigation-collapsible{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
 .navbar-default{ 
    background-color: inherit;
    border: none;
@@ -9,21 +17,19 @@
 color: rgb(60, 0, 128);
 }
 
-.navbar-collapse.collapse{
-   display: flex;
-   
-}
+.navbar-collapse{
+  padding-left: 0;
+  padding-right: 0;
 
+}
 .footer .navbar-nav{ 
    display: flex;
    flex-direction: column;
   
 }
-.footer{
+footer{
    display: flex;
    flex-direction: column;
-   margin: 0;
-   padding: 0;
 }
 .region-footer{
    display: flex;
@@ -39,7 +45,11 @@ color: rgb(60, 0, 128);
 }
 .footer_box{
    background-color: #22252a;
-   width: 100%;
+   width: wv;
+ 
+}
+.footer-container{
+   display: flex;
    justify-content: space-between;
    align-items: center;
 }
@@ -89,6 +99,18 @@ color: rgb(60, 0, 128);
    letter-spacing: -0.36px;
 }
 
+.brand-img{
+   color: #22252A;
+   font-size: 72px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1;
+   letter-spacing: -0.36px;
+   font-family: Poppins;
+}
+.brand-img-ferst{
+   color: #8BAA36;
+}
 /**
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.

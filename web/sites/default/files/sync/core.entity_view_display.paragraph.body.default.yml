@@ -1,0 +1,22 @@
+uuid: fb16ce09-ae92-455b-b31d-19356fca0d30
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.body.field_body
+    - paragraphs.paragraphs_type.body
+  module:
+    - text
+id: paragraph.body.default
+targetEntityType: paragraph
+bundle: body
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

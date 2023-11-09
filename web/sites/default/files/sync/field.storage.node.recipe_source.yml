@@ -1,0 +1,23 @@
+uuid: e3565b08-8808-4cd3-adb2-24a8bc037e84
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: pjEj3AXVNLES8LAEXMaJmZmFE4DeroDgdmjBWWhmAEQ
+id: node.recipe_source
+field_name: recipe_source
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes:
+  format:
+    - format
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 8817fd73-a6f3-4d14-ab32-a0af9cd3da3a
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.info_user
+    - field.storage.block_content.field_recipe
+id: block_content.info_user.field_recipe
+field_name: field_recipe
+entity_type: block_content
+bundle: info_user
+label: recipe
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings: {  }
+field_type: entity_reference

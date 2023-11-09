@@ -1,0 +1,22 @@
+uuid: df9e1da7-c7b7-4e7b-925e-7037b9cb5e0d
+langcode: uk
+status: true
+dependencies:
+  module:
+    - ingredient
+    - node
+_core:
+  default_config_hash: qjDDnjRKCmt4MZC8__yTeYOqOy497e0zw4mPteEssaQ
+id: node.recipe_ingredient
+field_name: recipe_ingredient
+entity_type: node
+type: ingredient
+settings:
+  target_type: ingredient
+module: ingredient
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

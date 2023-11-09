@@ -1,0 +1,26 @@
+uuid: b1b7e32f-a4c8-4ff9-8b99-3750255f3552
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.recipe_plain_text
+  module:
+    - views
+  theme:
+    - soyummy
+id: soyummy_views_block__recipe_plain_text_block_1
+theme: soyummy
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:recipe_plain_text-block_1'
+settings:
+  id: 'views_block:recipe_plain_text-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping:
+    nid: '@node.node_route_context:node'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

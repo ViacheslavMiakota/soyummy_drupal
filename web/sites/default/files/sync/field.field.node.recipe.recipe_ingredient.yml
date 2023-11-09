@@ -1,0 +1,30 @@
+uuid: 9275db0f-f27c-48fc-842e-5bc358852d45
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.recipe_ingredient
+    - node.type.recipe
+  module:
+    - ingredient
+_core:
+  default_config_hash: iRv6-Rl6Q9fm0D8MXt1HYrt7PdZBiA-p1oAqp0t58aU
+id: node.recipe.recipe_ingredient
+field_name: recipe_ingredient
+entity_type: node
+bundle: recipe
+label: Інгредієнти
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:ingredient'
+  handler_settings: {  }
+  default_unit: ''
+  unit_sets:
+    - common
+    - si
+    - us
+field_type: ingredient

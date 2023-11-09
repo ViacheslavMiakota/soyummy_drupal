@@ -1,0 +1,22 @@
+uuid: 19df5451-c9f5-4740-86d6-deee796ba79d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - paragraphs.paragraphs_type.body
+  module:
+    - text
+id: paragraph.body.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: body
+label: body
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

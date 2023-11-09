@@ -1,6 +1,6 @@
 uuid: 7651946b-500c-405f-836a-3c45d270c1bc
 langcode: uk
-status: false
+status: true
 dependencies:
   theme:
     - soyummy

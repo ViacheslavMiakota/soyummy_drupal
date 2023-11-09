@@ -1,0 +1,23 @@
+uuid: 0252c04d-2241-4acd-88b4-daca7e823b1e
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 01i41JFJun3H3noU566qgmCGETlxYZtBh2ddLpmU8tQ
+id: node.recipe_yield_unit
+field_name: recipe_yield_unit
+entity_type: node
+type: string
+settings:
+  max_length: 64
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

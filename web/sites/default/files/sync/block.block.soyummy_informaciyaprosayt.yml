@@ -10,8 +10,8 @@ dependencies:
     - soyummy
 id: soyummy_informaciyaprosayt
 theme: soyummy
-region: footer
-weight: -6
+region: footer_right
+weight: -7
 provider: null
 plugin: 'block_content:19cf4013-c1a1-46a7-828f-8fe66b36f7c0'
 settings:

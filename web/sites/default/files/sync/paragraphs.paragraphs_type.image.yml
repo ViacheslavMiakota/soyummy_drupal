@@ -1,0 +1,10 @@
+uuid: 7fd44fa7-b7e9-4ed5-b46e-bd78dbd2e80d
+langcode: uk
+status: true
+dependencies: {  }
+id: image
+label: images
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
